@@ -1,0 +1,80 @@
+[
+    {
+        "id":"1",
+        "name":"Airpod",
+        "description": "Introducing the amazing AirPods, the wireless earbuds that have taken the world by storm. These sleek and groundbreaking earphones provide a truly immersive audio experience, allowing you to enjoy your favorite music and podcasts with unparalleled clarity and depth. With their effortless setup and seamless connection to your iPhone, iPad, Apple Watch, or Mac, the AirPods make listening to audio a breeze. They automatically turn on and connect as soon as you take them out of their charging case, and they automatically pause when you take them out of your ears. It's as easy as putting them on and enjoying the music. The AirPods come with Siri, your very own personal assistant, built right in. You can simply double-tap to activate Siri, and ask her to play a specific song, make a call, adjust the volume, or even get directions. With Siri, you have the power of voice control at your fingertips - or rather, at your ears. Not only do the AirPods deliver outstanding sound quality, but they also provide an exceptional wireless experience. The W1 chip ensures a stable and efficient wireless connection, so you can enjoy your music without any interruptions. And with the included charging case, you can easily recharge your AirPods on the go,",
+        "price": "3000",
+        "image":"https://i.ibb.co/QYMS6vp/airpod.jpg"
+    },
+    {
+        "id":"2",
+        "name":"Bag",
+        "description": "Introducing our stylish and versatile Bag! 👜 Take your style game to the next level with this must-have accessory. Our Bag is not only fashionable but also functional, making it the perfect companion for any occasion. Whether you're heading to work, a weekend getaway, or a night out with friends, this Bag has got you covered. 🌟 Features: - ✨ Spacious interior: With ample room to store all your essentials, this Bag ensures you never have to compromise on what to bring along. It can easily accommodate your wallet, phone, keys, makeup, and more! - ✨ Multiple compartments: Stay organized and keep everything in its place with the multiple compartments of this Bag. From zippered pockets to open slots, you'll have easy access to all your belongings. - ✨ Adjustable strap: The adjustable strap allows you to customize the length to your preference, ensuring maximum comfort while carrying it around. - ✨ Durable construction: Made from high-quality materials, this Bag is built to last. It can withstand daily wear and tear, making it a reliable choice for your everyday adventures. - ✨ Stylish design: Designed with a modern and trendy aesthetic, this Bag adds a touch of sophistication to any outfit.",
+        "price": "4000",
+        "image": "https://i.ibb.co/vDvFQTp/bag.jpg"
+    },
+    {
+        "id":"3",
+        "name":"Body Spray",
+        "description":"Introducing our exquisite Body Spray, the perfect addition to your daily grooming routine. This luxurious product is designed to leave you feeling refreshed, revitalized, and smelling sensational throughout the day. 🌸 Bursting with a captivating fragrance, our Body Spray envelops you with a mesmerizing blend of floral and fruity notes, creating an aura of elegance and charm. 🍊🌹 🌿 Infused with natural ingredients, our Body Spray nourishes your skin while providing long-lasting freshness. Soothing extracts like aloe vera and chamomile work together to hydrate and moisturize, leaving your skin soft and supple. 💦 🌬️ The lightweight mist of our Body Spray ensures an effortless and even application, enveloping your body in a subtle cloud of delightful scent. It is quick-drying, non-greasy, and suitable for all skin types, making it an essential choice for both men and women. 💨 🎁 Indulge yourself or surprise your loved ones with this luxurious Body Spray. Whether you're headed to a special occasion or simply want to feel confident on a regular day, our Body Spray is your go-to accessory for that extra touch of sophistication. 💝 Embrace the invigor",
+        "price": "400",
+        "image": "https://i.ibb.co/F5h3Gmn/body-spray.jpg"
+    },
+    {
+        "id":"4",
+        "name":"Camera",
+        "description": "Capture special moments with the Polaroid Camera, a classic device that brings instant photography to life. With its sleek and compact design, this camera is perfect for both amateur and professional photographers alike. The Polaroid Camera features a built-in flash and automatic exposure control, ensuring that every shot is perfectly lit and balanced. The camera also comes with a variety of shooting modes, including portrait and landscape, allowing you to capture stunning images in any setting. 📸 Instantly print your photos with the touch of a button, making it easy to share memories with friends and family. 🌈 The Polaroid Camera allows you to add a splash of creativity to your photographs with its wide range of color filters and effects. 👀 The camera's viewfinder provides a clear and accurate preview of what your photo will look like before you press the shutter button. 💡 The built-in flash ensures that your photos are well-lit, even in low light situations. 🎁 Perfect for gifts or personal use, the Polaroid Camera is a must-have for anyone who loves capturing moments and creating tangible memories. Upgrade your photography game with the Polaroid Camera and start capturing memories that will last a lifetime. 📷✨",
+        "price": "22000",
+        "image": "https://i.ibb.co/H7wVVS3/camera.jpg"
+    },
+    {
+        "id":"5",
+        "name":"Macbook",
+        "description": "Introducing the remarkable Macbook, a perfect blend of sleek design, cutting-edge technology, and unparalleled performance. This top-of-the-line laptop promises to revolutionize your digital experience with its array of innovative features and impressive specifications. 🚀 Powered by the latest Intel processors, the Macbook delivers lightning-fast speed and seamless multitasking capabilities, allowing you to effortlessly tackle any task or project. Whether you're creating stunning graphics, editing high-resolution videos, or running resource-intensive applications, this powerhouse laptop can handle it all. 💡 The bright and vibrant Retina display with True Tone technology brings your content to life, providing crystal-clear visuals and accurate color reproduction. Immerse yourself in an immersive viewing experience, whether you're watching movies, browsing the web, or editing photos. 🔒 Thanks to the advanced security features, your data and privacy are always protected. The Macbook comes equipped with Touch ID, enabling secure and convenient authentication with just your fingerprint. Additionally, the T2 Security Chip provides enhanced encryption for storage, ensuring that your files are safe from any potential threats. 💻 With its lightweight and slim design, the Macbook is perfect for those who are constantly on the go. Whether you're traveling for business or leisure, this portable powerhouse is a reliable companion",
+        "price": "235000",
+        "image": "https://i.ibb.co/T1BjTHP/laptop.jpg"
+    },
+    {
+        "id": "6",
+        "name": "Mouse",
+        "description": "Introducing our sleek and versatile Mouse! 🖱️ Paragraph Description: Our Mouse is designed with precision and comfort in mind, providing you with a seamless and effortless computing experience. Its ergonomic design fits perfectly in your hand, reducing strain and allowing you to work or play for hours without discomfort. The high-accuracy optical sensor ensures smooth and responsive cursor control, making your every click and movement precise. With its plug-and-play functionality, you can easily connect the Mouse to your computer or laptop and start using it right away. It's compatible with both Windows and macOS, making it the perfect choice for all users. Whether you're a professional working on important documents or a gamer seeking precision in every move, our Mouse is the ultimate companion for all your computing needs. Bullet Points: ✔️ Ergonomic design for comfortable usage and reduced strain. ✔️ High-accuracy optical sensor for smooth and precise cursor control. ✔️ Plug-and-play functionality for easy setup and instant use. ✔️ Compatible with both Windows and macOS operating systems. ✔️ Perfect for professionals and gamers seeking precision in every click and movement. Your computing experience will be elevated with our Mouse. Get yours today and enjoy effortless navigation and control! 🖱️💻💪🏼",
+        "price": "200",
+        "image": "https://i.ibb.co/J7HV3TP/mouse.jpg"
+    },
+    {
+        "id":"7",
+        "name":"Shoe",
+        "description":"Introducing our incredible shoe collection! 🎉 👟 Step up your style game with our amazing shoe. Made with high-quality materials, this shoe offers unbeatable comfort and durability. Whether you're hitting the gym, going for a run, or simply walking around town, our shoe will provide the perfect fit and support that your feet deserve. 🌟 Features: ✨ Lightweight and breathable design, keeping your feet cool and comfortable all day long. ✨ Cushioned insole for superior shock absorption, reducing the impact on your joints. ✨ Flexible outsole for natural movement and maximum traction on any surface. ✨ Stylish and versatile, this shoe can be paired with any outfit, making it a wardrobe essential. ✨ Available in a range of sizes and colors to suit your preferences. 🔥 Don't compromise on style or comfort! With our shoe, you'll never have to choose. Experience the perfect blend of fashion and functionality. Grab a pair now and step into the world of absolute comfort! 👟💫",
+        "price":"8000",
+        "image": "https://i.ibb.co/wJ4PbQ5/shoe.jpg"
+    },
+    {
+        "id":"8",
+        "name":"Sunglass",
+        "description": "Introducing our stunning Sunglass, the perfect accessory to elevate your style and protect your eyes from the sun's harmful rays. With its sleek design and high-quality materials, these sunglasses are not only fashionable but also durable. Whether you're lounging by the pool, strolling on the beach, or enjoying a sunny day in the city, these sunglasses will keep you looking effortlessly cool. 🌞 Protects your eyes from UV rays: Our Sunglass features UV400 lenses that block 100% of harmful UVA and UVB rays, ensuring optimal eye protection. Say goodbye to squinting and hello to clear vision! 🕶️ Trendy and versatile: With their timeless design, these sunglasses will never go out of style. Whether you prefer a classic aviator shape or a bold oversized frame, we have the perfect style to fit your personality. 🏖️ Perfect for outdoor activities: Whether you're hiking, biking, or simply enjoying a picnic in the park, these sunglasses are a must-have. The lightweight and comfortable design ensures all-day wearability while the polarized lenses reduce glare for improved visibility. 💯 Superior quality: Crafted with precision and attention to detail, our Sunglass is made from high-quality materials that guarantee durability and longevity. You",
+        "price":"400",
+        "image": "https://i.ibb.co/KjC84Y5/sunglass.jpg"
+    },
+
+    {
+        "id":"9",
+        "name":"LED TV",
+        "description": "Experience the ultimate visual feast with our state-of-the-art LED TV. Designed to offer unparalleled clarity and vibrant colors, this television will elevate your viewing experience to new heights. With its sleek and modern design, our LED TV will effortlessly blend into any living space, adding a touch of sophistication and elegance. Featuring advanced LED technology, this TV boasts a backlighting system that enhances contrast and provides deeper blacks, resulting in a more immersive and lifelike picture quality. Whether you're watching your favorite movies, catching up on the latest TV shows, or playing video games, every detail will be rendered with stunning precision. Not only does this LED TV deliver exceptional picture quality, but it also comes equipped with a range of smart features that will transform the way you interact with your television. Connect seamlessly to the internet and access a myriad of streaming services, social media platforms, and online content, all at the touch of a button. Say goodbye to cable clutter and enjoy the convenience of wireless connectivity. Here are a few reasons why our LED TV stands out from the crowd: 💡 Ultra-slim design: With its slim bezels and sleek profile, this TV adds a touch of modernity to any room. 💡 Energy efficient: Thanks to advanced LED backlighting, this TV consumes",
+        "price": "50000",
+        "image": "https://i.ibb.co/n1KbDMw/tv.jpg"
+    },
+    {
+        "id":"10",
+        "name":"Smart Watch",
+        "description": "Introducing the Smart Watch 🌟 Stay connected and track your fitness goals with the revolutionary Smart Watch. This sleek and stylish timepiece is designed to seamlessly integrate into your busy lifestyle, keeping you one step ahead at all times. 🔋 Long-lasting Battery Life: Say goodbye to constantly charging your smartwatch. With its advanced battery technology, the Smart Watch can last for days on a single charge, ensuring you never miss a beat. ⌚️ Stylish Design: With its modern and minimalist design, the Smart Watch is the perfect accessory for any outfit. Whether you're heading to the gym or attending a business meeting, this watch effortlessly complements your style. 📱 Seamless Connectivity: Connect your Smart Watch to your smartphone and receive all your important notifications right on your wrist. Stay on top of your text messages, emails, calls, and social media updates without having to constantly check your phone. 🏃‍♂️ Fitness Tracking at its best: Take your fitness to the next level with the Smart Watch's built-in fitness tracker. Keep track of your steps, distance, calories burned, and even monitor your heart rate. Stay motivated and achieve your health goals with ease. 💤 Sleep Monitoring: Get valuable insights into your sleep patterns with",
+        "price": "25000",
+        "image": "https://i.ibb.co/ynj0FSw/watch.jpg"
+    },
+    {
+        "id":"11",
+        "name":"Mugs",
+        "description": "Introducing our collection of stylish and versatile mugs! 🌟 Whether you enjoy a hot cup of coffee in the morning or a comforting cup of tea in the evening, our mugs are designed to elevate your drinking experience. With their durable construction and charming designs, they make the perfect addition to any kitchen or office. 🔸 Made from high-quality ceramic, our mugs offer excellent heat retention, keeping your beverage at the perfect temperature for longer periods of time. Enjoy every sip without worrying about it getting cold too quickly. 🔸 Our mugs feature a comfortable handle that allows for a secure grip, ensuring that you can enjoy your drink without any spills or mishaps. The ergonomic design guarantees a pleasurable drinking experience every time. 🔸 Available in a variety of vibrant colors and patterns, our mugs offer a touch of personality to your daily routine. Choose from classic, minimalist designs to bold, eye-catching prints that will brighten up your day. 🔸 The spacious size of our mugs allows for generous servings of your favorite hot or cold beverages. Whether you prefer a steaming cup of hot chocolate or a refreshing iced coffee, our mugs can accommodate it all. 🔸 Easy to clean and maintain, our mugs",
+        "price": "1000",
+        "image": "https://i.ibb.co/ZxTfGTx/mugs.jpg"
+    }
+]
