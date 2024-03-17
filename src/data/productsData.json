@@ -23,9 +23,10 @@
     {
         "id":"4",
         "name":"Camera",
-        "description": "Capture special moments with the Polaroid Camera, a classic device that brings instant photography to life. With its sleek and compact design, this camera is perfect for both amateur and professional photographers alike. The Polaroid Camera features a built-in flash and automatic exposure control, ensuring that every shot is perfectly lit and balanced. The camera also comes with a variety of shooting modes, including portrait and landscape, allowing you to capture stunning images in any setting. 📸 Instantly print your photos with the touch of a button, making it easy to share memories with friends and family. 🌈 The Polaroid Camera allows you to add a splash of creativity to your photographs with its wide range of color filters and effects. 👀 The camera's viewfinder provides a clear and accurate preview of what your photo will look like before you press the shutter button. 💡 The built-in flash ensures that your photos are well-lit, even in low light situations. 🎁 Perfect for gifts or personal use, the Polaroid Camera is a must-have for anyone who loves capturing moments and creating tangible memories. Upgrade your photography game with the Polaroid Camera and start capturing memories that will last a lifetime. 📷✨",
+        "description": "Capture special moments with the Polaroid Camera",
         "price": "22000",
-        "image": "https://i.ibb.co/H7wVVS3/camera.jpg"
+        "image": "https://i.ibb.co/H7wVVS3/camera.jpg",
+        "image2": "https://i.ibb.co/DgY1q6V/camera2.jpg"
     },
     {
         "id":"5",

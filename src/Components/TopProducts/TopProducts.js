@@ -1,9 +1,24 @@
 import React from 'react';
 import products from '../../data/productsData.json'
+import './TopProducts.css'
+import { Link, useNavigate } from 'react-router-dom';
+import { getStoredCart } from '../utilities/localDB';
+import { useState } from 'react';
+import { addToDB } from '../utilities/localDB';
+
 const TopProducts = () => {
+    const [cart, setCart] = useState([]);
+    const addToCart = (product) => {
+        setCart([...cart, product]);
+        addToDB(product.id);
+        navigate('/cart');
+    }
+    const navigate = useNavigate();
+
+   
     
     let topProducts = [];
-    for (let i = 0; i<topProducts.length; i++) {
+    for (let i = 0; i<3; i++) {
         const number = Math.floor(Math.random() * products.length);
         if(!topProducts.includes(products[number])) {
             topProducts.push(products[number]);
@@ -12,19 +27,49 @@ const TopProducts = () => {
         }
         
     }
-    // console.log(products);
+
 
     return (
         <section>
             <h1 style={{fontSize:"22px", color: "#212529", fontWeight:"700"}} className="mt-3">Top Products of This Week</h1>
 
-            <div className="row products-container">
+            <div className="row justify-content-center align-items-center products-container">
                 {
                     topProducts.map(product => {
                         return (
-                            <div className="">
-                                <h4>{product.name}</h4>
-                                console.log(product)
+                            <div key={product.id} className="cart-deck my-2 col-lg-3 col-md-5 col-sm-8 mx-1">
+
+                                    <div className="cart">
+
+                                        <Link to={`/product/${product.id}`} className="text-decoration-none text-black">
+                                                <img src={product.image} className="cart-img-top img-fluid mx-auto d-block" alt={product.name} />
+                                        </Link>
+
+                                        <div className="d-flex justify-content-between align-items-center">
+
+                                                <div className="cart-body  col-sm-6 mt-3">
+                                                    <h5 style={{fontSize:"16px"}} className="cart-title">{product.name}</h5>
+                                                    <p style={{fontSize:"14px"}} className="cart-text">Price:{product.price} Taka</p>
+                                                </div>
+    
+                                                <div className="d-flex col-sm-6 ">
+
+                                                    <div className="col-sm-6">
+                                                        <button onClick={() => {
+                                                            navigate(`/product/${product.id}`)
+                                                        }}className="btn btn-outline-dark my-3">Details</button>
+                                                    </div>
+
+                                                    <div className="col-sm-6 mx-3">
+                                                        <button onClick={() => addToCart(product)} className="btn btn-outline-secondary my-3">Cart</button>
+                                                    </div>
+                                                    
+                                                </div>
+    
+
+                                        </div>
+                                    </div>
+                            
                             </div>
                         )
                     })

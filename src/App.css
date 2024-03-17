@@ -9,3 +9,12 @@
 .bg-brand-container {
     min-height: 100vh;
 }
+
+.form-control:focus {
+    border-color: black;
+    box-shadow:0 0 0 black;
+}
+
+.form-control {
+    
+}

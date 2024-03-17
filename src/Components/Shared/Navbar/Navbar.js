@@ -1,13 +1,30 @@
 import React from 'react';
 import './Navbar.css'
 import Logo from '../../../images/logo.png'
+import { NavLink } from 'react-router-dom';
+import { getStoredCart } from '../../utilities/localDB';
+import products from '../../../data/productsData.json'
+import useAuth from '../../../hooks/useAuth';
 const Navbar = () => {
+
+  let savedCart = getStoredCart();
+  let cart = [];
+  for (let key in savedCart) {
+      cart.push({
+          ...products.find(pd => pd.id === key),
+          quantity: savedCart[key]
+      })
+  }
+
+  const {user} = useAuth();
+
     return (
 
-        <nav className="navbar navbar-expand-lg bg-body-tertiary customize-navbar">
+        <nav style={{backgroundColor: "#f3f5f9"}} className="navbar navbar-expand-lg bg-body-tertiary customize-navbar sticky-top">
         <div className="container">
-          <a className="navbar-brand" href="/">
-                <img className="img-fluid" src={Logo} width={50} alt="" />MERN E-Commerce</a>
+          <NavLink className="navbar-brand" to="/">
+                <img className="img-fluid" src={Logo} width={50} alt="" />MERN E-Commerce
+          </NavLink>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
@@ -16,13 +33,69 @@ const Navbar = () => {
 
             <div className="navbar-nav ms-auto text-center">
 
-                <a className="nav-link" href="/home">Home</a>
-                <a className="nav-link" href="/products">Products</a>
-                <a className="nav-link" href="/cart">Cart</a>
-                <a className="nav-link" href="/login">Login</a>
-                <a className="nav-link" href="/profile">Profile</a>
-                <a className="nav-link" href="/dashboard">Dashboard</a>
-              
+                  <NavLink style={({isActive}) => {
+                      return {
+                        color: isActive ? "red" : ""
+                        
+                      };
+                  }} className="nav-link" to="/home">Home</NavLink>
+                  <NavLink style={({isActive}) => {
+                      return {
+                        color: isActive ? "red" : ""
+                        
+                      };
+                  }} className="nav-link" to="/products">Products</NavLink>
+
+                  {
+                      cart?.length>0 ?
+                      <NavLink style={({isActive}) => {
+                        return {
+                          color: isActive ? "red" : ""
+                          
+                        };
+                    }} className="nav-link" to="/cart">Cart <sup className="fw-bold text-dark">({cart.reduce((a,b) => {return a + b.quantity}, 0)})</sup></NavLink>
+
+                    :
+
+                    <NavLink style={({isActive}) => {
+                      return {
+                        color: isActive ? "red" : ""
+                        
+                      };
+                    }} className="nav-link" to="/cart">Cart</NavLink>
+
+                  }
+
+                  {
+
+                    !user.email &&     <NavLink style={({isActive}) => {
+                        return {
+                          color: isActive ? "red" : ""
+                          
+                        };
+                    }} className="nav-link" to="/login">Login</NavLink>
+
+                  }
+                
+                  {
+                    user.email && <NavLink style={({isActive}) => {
+                      return {
+                        color: isActive ? "red" : ""
+                        
+                      };
+                  }} className="nav-link" to="/profile">Profile</NavLink>
+
+                  }
+
+                  {/* {
+                      user.email && <NavLink style={({isActive}) => {
+                        return {
+                          color: isActive ? "red" : ""
+                          
+                        };
+                    }} className="nav-link" to="/dashboard">Dashboard</NavLink>
+                  } */}
+                       
             </div>
 
           </div>

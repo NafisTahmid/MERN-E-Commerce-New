@@ -24,12 +24,12 @@
 }
 
 .cart-title {
-    font-size: 16px;
+    font-size: 1.2rem;
     font-weight: bold;
     margin: 0.5rem 0;
 }
 
 .cart-text {
-    font-size: 14px;
+    font-size: 1rem;
     margin: 0.5rem 0;
 }

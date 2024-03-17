@@ -3,9 +3,10 @@ import './Home.css'
 import Navbar from '../Components/Shared/Navbar/Navbar';
 import Hero from '../Components/Hero/Hero';
 import TopProducts from '../Components/TopProducts/TopProducts';
+import Footer from '../Components/Shared/Footer/Footer';
 
 const Home = (props) => {
-    console.log(props);
+
     return (
 
         <div className="bg-brand bg-brand-container">
@@ -14,11 +15,11 @@ const Home = (props) => {
                 <Hero/>
            </div>
 
-            <div className="container">
-                
+            <div className="container"> 
                 <TopProducts/>
-                
             </div>
+
+            <Footer/>
         </div>
     );
 };
